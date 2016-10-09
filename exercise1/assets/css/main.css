@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #eadcbb;
+	position: relative;
+}
+
+#table {
+	width: 720px;
+	height: 90px;
+	background: #e5c475;
+	position: absolute;
+	top: 260px;
+	left: 90px;
+	transform: skew(-60deg);
+}
+
+#table2 {
+	width: 720px;
+	height: 12px;
+	background: #ceaf67;
+	position: absolute;
+	top: 350px;
+	left: 10px;
+}
+
+#mat {
+	width: 300px;
+	height: 70px;
+	background: #9be5d4;
+	position: absolute;
+	top: 270px;
+	left: 300px;
+	transform: skew(-60deg);
+}
+
+#skull1 {
+    display: block;
+    width: 85px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    top: 215px;
+    left: 500px;
+    border-radius: 90% 100% 100% 20% / 50% 70% 70% 40%;
+    transform: rotate(20deg);
+}
+
+#skull3 {
+	width: 18px;
+    height: 23px;
+    background: black;
+    position: absolute;
+    top: 240px;
+    left: 510px;
+    border-radius: 100px / 90px;
+}
+
+#apple {
+	display: block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 265px;
+    left: 430px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+}
+
+#applestem {
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	top: 262px;
+	left: 450px;
+	background: brown;
+}
+
+#candle {
+	width: 30px;
+	height: 100px;
+	background: linear-gradient(#ffebb3, white);
+	position: absolute;
+	top: 200px;
+	left: 380px;
+}
+
+#light {
+   width: 8px;
+    height: 15px;
+    background: #ffdb00;
+    position: absolute;
+    top: 190px;
+    left: 391px;
+    border-radius: 100px;
+}

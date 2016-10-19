@@ -1,0 +1,30 @@
+body {
+	background: tan;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+	margin: auto;
+}
+
+#header {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#content {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+#description {
+	margin-top: 150px;
+}
+
+#step1 {
+	margin-top: 100px;
+}

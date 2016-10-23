@@ -3,14 +3,41 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+::selection {
+    color: white; 
+    background: black;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: line-through;
+}
+
 #main {
 	margin: auto;
 }
 
 #header {
-	margin-top: 50px;
+	margin-top: 80px;
 	text-align: center;
 	font-size: 30px;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+p {
+	line-height: 22px;
 }
 
 #content {
@@ -22,9 +49,5 @@ body {
 }
 
 #description {
-	margin-top: 150px;
-}
-
-#step1 {
-	margin-top: 100px;
+	margin-top: 190px;
 }

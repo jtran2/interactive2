@@ -1,0 +1,115 @@
+body {
+	background: tan;
+	font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    color: white; 
+    background: black;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: line-through;
+}
+
+#main {
+	margin: auto;
+}
+
+#header {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 30px;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+p {
+	line-height: 22px;
+}
+
+#content {
+	width: 900px;
+	/* background: yellow; */
+	margin: auto;
+	text-align: center;
+	font-size: 15px;
+}
+
+.lettera {
+	width: 700px;
+	/* background: green; */
+	margin-top: 100px;
+}
+
+#a1 {
+	width: 260px;
+	height: 30px;
+	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	left: 530px;
+	top: 400px;
+}
+
+#a2 {
+	width: 30px;
+	height: 350px;
+	background: black;
+	position: absolute;
+	left: 730px;
+	transform: rotate(-25deg);
+}
+
+#a2border {
+	width: 30px;
+	height: 350px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	top: 240px;
+	left: 715px;
+	transform: rotate(-25deg);
+}
+
+#a3 {
+	width: 30px;
+	height: 350px;
+	background: black;
+	/*border-style: solid;
+	border-width: 15px;
+	border-color: tan;*/
+	position: absolute;
+	left: 590px;
+	transform: rotate(25deg);
+}
+
+#a3border {
+	width: 30px;
+	height: 350px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	left: 575px;
+	top: 240px;
+	transform: rotate(25deg);
+}
+

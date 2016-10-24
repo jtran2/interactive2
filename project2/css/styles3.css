@@ -1,3 +1,13 @@
+@keyframes fadeIn {
+  0%, {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 body {
 	background: tan;
 	font-family: 'Montserrat', sans-serif;
@@ -24,16 +34,43 @@ a:hover {
 
 #main {
 	margin: auto;
+	width: 900px;
 }
 
-#header {
-	margin-top: 80px;
+#header1 {
+	background-color: tan;
 	text-align: center;
 	font-size: 30px;
+	position: absolute;
+	top: 80px;
+	opacity: 1;
+}
+
+#header1:hover {
+	opacity: 0;
+	animation-name: fadeOut;
+	animation-duration: .5s;
+	animation-delay: 0s;
+	animation-direction: alternate;
+}
+
+#header2 {
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 80px;
+	opacity: 1;
 }
 
 h1 {
 	letter-spacing: 3px;
+}
+
+#step2 {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	margin-top: 250px;
 }
 
 p {
@@ -51,7 +88,9 @@ p {
 .lettera {
 	width: 700px;
 	/* background: green; */
-	margin-top: 100px;
+	top: 200px;
+	left: 00px;
+	position: absolute;
 }
 
 #a1 {
@@ -71,6 +110,7 @@ p {
 	height: 350px;
 	background: black;
 	position: absolute;
+	top: 250px;
 	left: 730px;
 	transform: rotate(-25deg);
 }
@@ -97,6 +137,7 @@ p {
 	border-color: tan;*/
 	position: absolute;
 	left: 590px;
+	top: 250px;
 	transform: rotate(25deg);
 }
 
@@ -113,3 +154,40 @@ p {
 	transform: rotate(25deg);
 }
 
+.letterb {
+	width: 700px;
+	
+	top: 900px;
+	left: 350px;
+	position: absolute;
+}
+
+#b1 {
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	background: black;
+	border-radius: 100px / 90px;
+}
+
+#b2 {
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 120px;
+	background: black;
+	border-radius: 100px / 90px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+}
+
+#b3 {
+	width: 30px;
+	height: 300px;
+	position: absolute;
+	background-color: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+}

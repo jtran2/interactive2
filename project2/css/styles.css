@@ -9,27 +9,46 @@ body {
 }
 
 a:link {
-	color: black;
+	color: gray;
 	text-decoration: none;
 }
 
 a:visited {
-	color: black;
+	color: gray;
 }
 
 a:hover {
-	color: gray;
+	color: black;
 	text-decoration: line-through;
 }
 
 #main {
+	width: 900px;
 	margin: auto;
 }
 
-#header {
-	margin-top: 80px;
+#header1 {
+	background-color: tan;
 	text-align: center;
 	font-size: 30px;
+	position: absolute;
+	top: 80px;
+	opacity: 1;
+}
+
+#header1:hover {
+	opacity: 0;
+	animation-name: fadeOut;
+	animation-delay: 0s;
+	animation-direction: alternate;
+}
+
+#header2 {
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 80px;
+	opacity: 1;
 }
 
 h1 {
@@ -48,6 +67,32 @@ p {
 
 }
 
-#description {
-	margin-top: 190px;
+#description1 {
+	width: 500px;
+	margin-top: 250px;
+	position: absolute;
+	background-color: tan;
+}
+
+#description1:hover {
+	opacity: 0;
+	animation-name: fadeOut;
+	animation-delay: 0s;
+	animation-direction: alternate;
+}
+
+#description2 {
+	width: 500px;
+	margin-top: 250px;
+	position: absolute;
+}
+
+#nextpage {
+	background-color: none;
+	text-align: center;
+	width: 500px;
+	position: absolute;
+	margin: auto;
+	margin-top: 450px;
+	
 }

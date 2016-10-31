@@ -27,6 +27,7 @@ a:hover {
 #main {
 	margin: auto;
 	width: 900px;
+	height: 1000px;
 }
 
 #header1 {
@@ -98,23 +99,19 @@ p {
 }
 
 #grid1 {
-	width: 8000px;
-	height: 300px;
+	width: 10000px;
 	background-color: none;
-	border: none;
-	border-top: 3px;
-	border-bottom: 3px;
+	border-top: 1px;
 	border-style: solid;
 	border-color: black;
 	position: absolute;
 	top: 470px;
 	left: -3px;
 	opacity: .5;
-	z-index: 0;
 }
 
 #grid2 {
-	width: 8000px;
+	width: 10000px;
 	background-color: none;
 	border-top: 1px;
 	border-style: dotted;
@@ -123,7 +120,18 @@ p {
 	top: 620px;
 	left: -3px;
 	opacity: .7;
-	z-index: 0;
+}
+
+#grid3 {
+	width: 10000px;
+	background-color: none;
+	border-top: 1px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 775px;
+	left: -3px;
+	opacity: .5;
 }
 
 .lettera {
@@ -227,7 +235,7 @@ p {
 	position: absolute;
 	top: 10px;
 	background: black;
-	border-radius: 100px / 90px;
+	border-radius: 50%;
 	opacity: .3;
 }
 
@@ -237,7 +245,7 @@ p {
 	position: absolute;
 	top: 10px;
 	background: tan;
-	border-radius: 100px / 90px;
+	border-radius: 50%;
 	transform: scale(0.7);
 }
 
@@ -246,7 +254,7 @@ p {
 	height: 160px;
 	position: absolute;
 	top: 145px;
-	border-radius: 100px / 90px;
+	border-radius: 50%;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -260,7 +268,7 @@ p {
 	position: absolute;
 	top: 145px;
 	background: black;
-	border-radius: 100px / 90px;
+	border-radius: 50%;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -276,3 +284,812 @@ p {
 	border-width: 15px;
 	border-color: tan;
 }
+
+.letterc {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 1050px;
+}
+
+#c1 {
+	width: 350px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+}
+
+#c1neg {
+	width: 350px;
+	height: 300px;
+	background: tan;
+	border-radius: 50%;
+	transform: scale(.5);
+	position: absolute;
+}
+
+.letterd {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 1350px;
+}
+
+#d1 {
+	width: 350px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	opacity: ;
+}
+
+#d2 {
+	width: 350px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	transform: scale(.5);
+	position: absolute;
+	opacity: ;
+}
+
+.lettere {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 1750px;
+}
+
+#e1 {
+	width: 350px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	opacity: ;
+}
+
+#e2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	transform: scale(.5);
+	position: absolute;
+	opacity: ;
+}
+
+#e3 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+#e4 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterf {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 2000px;
+}
+
+#f1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#f2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#f3 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterg {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 2350px;
+}
+
+#g1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#g2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#g3 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterh {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 2700px;
+}
+
+#h1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#h2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#h3 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letteri {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 3000px;
+}
+
+#i1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#i2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#i3 {
+	width: 70px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterj {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 3300px;
+}
+
+#j1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#j2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterk {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 3600px;
+}
+
+#k1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#k2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#k3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterl {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 3900px;
+}
+
+#l1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#l2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterm {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 4200px;
+}
+
+#m1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#m2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#m3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#m4 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.lettern {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 4500px;
+}
+
+#n1 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#n2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#n3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.lettero {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 4500px;
+}
+
+#o1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#o2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterp {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 4800px;
+}
+
+#p1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#p2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterq {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 5100px;
+}
+
+#q1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#q2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#q3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterr {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 5400px;
+}
+
+#r1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#r2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#r3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letters {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 5700px;
+}
+
+#s1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#s2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.lettert {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 6000px;
+}
+
+#t1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#t2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letteru {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 6300px;
+}
+
+#u1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#u2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterv {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 6600px;
+}
+
+#v1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#v2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterw {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 6900px;
+}
+
+#w1 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#w2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#w3 {
+	height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+	background: black;
+	transform: scale(2);
+	position: absolute;
+	opacity: ;
+}
+
+#w4 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterx {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 7200px;
+}
+
+#x1 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#x2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.lettery {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 7500px;
+}
+
+#y1 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#y2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#y3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.letterz {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 7800px;
+}
+
+#z1 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#z2 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+#z3 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+/* .num1 {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 8100px;
+}
+
+#num11 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#num12 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.num2 {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 8400px;
+}
+
+#num21 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#num22 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+}
+
+.num3 {
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 8700px;
+}
+
+#num31 {
+	height:45px;
+    width:90px;
+	background: black;
+	position: absolute;
+	transform: rotate (25deg);
+	opacity: ;
+}
+
+#num32 {
+	width: 30px;
+	height: 300px;
+	background: black;
+	position: absolute;
+	opacity: ;
+} /*

@@ -292,10 +292,19 @@ p {
 	width: 30px;
 	height: 300px;
 	position: absolute;
+	margin-left: 20px;
 	background-color: black;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
+}
+
+#b3border {
+	width: 80px;
+	height: 300px;
+	position: absolute;
+	margin-left: 0px;
+	background-color: tan;
 }
 
 .letterc {
@@ -347,8 +356,9 @@ p {
 	background: black;
 	border-radius: 50%;
 	position: absolute;
-	margin-top: 10px;
-	margin-left: -10px
+	margin-top: 0px;
+	margin-left: -100px;
+
 }
 
 #d1neg {
@@ -358,7 +368,17 @@ p {
 	border-radius: 50%;
 	transform: scale(.8);
 	position: absolute;
-	margin-top: 10px;
+	margin-top: 0px;
+	margin-left: -100px;
+
+}
+
+#d1neg2 {
+	width: 130px;
+	height: 320px;
+	background: tan;
+	position: absolute;
+	margin-left: -120px;
 }
 
 #d2 {
@@ -369,7 +389,7 @@ p {
 	border-width: 15px;
 	border-color: tan;
 	position: absolute;
-	margin-top: 7px;
+	margin-top: 0px;
 	opacity: ;
 }
 

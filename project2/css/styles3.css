@@ -1,5 +1,3 @@
-
-
 body {
 	background: tan;
 	font-family: 'Montserrat', sans-serif;
@@ -27,7 +25,7 @@ a:hover {
 #main {
 	margin: auto;
 	width: 900px;
-	height: 1000px;
+	height: 2000px;
 }
 
 #header1 {
@@ -64,6 +62,13 @@ h2 {
 
 p {
 	line-height: 22px;
+}
+
+#simple_sketch {
+	background-color: white;
+	position: absolute;
+	top: 820px;
+	left: 20px;
 }
 
 #content {
@@ -309,7 +314,7 @@ p {
 
 .letterc {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 1050px;
@@ -344,7 +349,7 @@ p {
 
 .letterd {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 1550px;
@@ -500,7 +505,7 @@ p {
 
 .letterg {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 2800px;
@@ -574,7 +579,7 @@ p {
 
 .letterh {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 3300px;
@@ -683,7 +688,7 @@ p {
 
 .letterj {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 4120px;
@@ -728,7 +733,7 @@ p {
 
 .letterk {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 4450px;
@@ -793,7 +798,7 @@ p {
 
 .letterl {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 4850px;
@@ -823,7 +828,7 @@ p {
 
 .letterm {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 5250px;
@@ -916,7 +921,7 @@ p {
 
 .lettern {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 5800px;
@@ -971,7 +976,7 @@ p {
 
 .lettero {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 6400px;
@@ -1012,7 +1017,7 @@ p {
 
 .letterp {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 6800px;
@@ -1054,7 +1059,7 @@ p {
 
 .letterq {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 7300px;
@@ -1120,7 +1125,7 @@ p {
 
 .letterr {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 7750px;
@@ -1184,7 +1189,7 @@ p {
 
 .letters {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 8300px;
@@ -1257,13 +1262,24 @@ p {
 
 .lettert {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 8750px;
 }
 
 #t1 {
+	width: 30px;
+	height: 310px;
+	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	opacity: .7;
+}
+
+#t2 {
 	height: 30px;
     width: 280px;
 	background: black;
@@ -1272,75 +1288,97 @@ p {
 	border-color: tan;
 	position: absolute;
 	margin-left: -120px;
-	opacity: .7;
-}
-
-#t2 {
-	width: 30px;
-	height: 310px;
-	background: black;
-	border-style: solid;
-	border-width: 15px;
-	border-color: tan;
-	position: absolute;
 	opacity: 1;
 }
 
 .letteru {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 9300px;
+	margin-left: 9200px;
 }
 
 #u1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	height: 160px;
+    width: 60px;
+    border-radius: 0px 0px 60px 0px;
 	background: black;
 	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	margin-top: 90px;
+	margin-left: 140px;
+	opacity: .7;
 }
 
 #u2 {
-	width: 30px;
-	height: 300px;
+	height: 160px;
+    width: 60px;
+    border-radius: 0px 0px 0px 60px;
 	background: black;
+	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	margin-top: 90px;
+	opacity: 1;
+}
+
+#uneg {
+	height: 200px;
+    width: 100px;
+    border-radius: 0px 0px 60px 60px;
+	background: tan;
+	position: absolute;
+	transform: scale(1.95);
+	margin-top: 5px;
+	margin-left: 50px;
+	opacity: 1;
 }
 
 .letterv {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 9900px;
+	margin-left: 9750px;
 }
 
 #v1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	width: 30px;
+	height: 350px;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	transform: rotate(25deg);
+	margin-left: 150px;
+	margin-top: -10px;
+	opacity: .7;
 }
 
 #v2 {
 	width: 30px;
-	height: 300px;
+	height: 350px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	transform: rotate(-25deg);
+	margin-top: -10px;
+	opacity: 1;
+}
+
+#v2border {
+	width: 30px;
+	height: 350px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	transform: rotate(-25deg);
+	margin-top: 0px;
+	opacity: 1;
 }
 
 .letterw {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 10200px;
@@ -1384,7 +1422,7 @@ p {
 
 .letterx {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 10600px;
@@ -1409,7 +1447,7 @@ p {
 
 .lettery {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 11100px;
@@ -1442,7 +1480,7 @@ p {
 
 .letterz {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 11400px;
@@ -1475,7 +1513,7 @@ p {
 
 /* .num1 {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 8100px;
@@ -1500,7 +1538,7 @@ p {
 
 .num2 {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 8400px;
@@ -1525,7 +1563,7 @@ p {
 
 .num3 {
 	width: 300px;
-	background-color: blue;
+	background-color: none;
 	position: absolute;
 	margin-top: 450px;
 	margin-left: 8700px;

@@ -6,6 +6,8 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/styles3.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/sketch.js"></script>
 </head>
 
 <body>
@@ -19,6 +21,13 @@
         <div id="header1">
             <h1>WIRTE RHIGT NOT WNORG</h1>
         </div>
+
+        <canvas id="simple_sketch" width="500" height="500"></canvas>
+        <script type="text/javascript">
+          $(function() {
+            $('#simple_sketch').sketch();
+          });
+        </script>
 
 
         <div id="content">
@@ -183,10 +192,12 @@
             <div class="letteru">
                 <div id="u1"></div>
                 <div id="u2"></div>
+                <div id="uneg"></div>
             </div>
 
             <div class="letterv">
                 <div id="v1"></div>
+                <div id="v2border"></div>
                 <div id="v2"></div>
             </div>
 

@@ -99,7 +99,7 @@ p {
 }
 
 #grid1 {
-	width: 10000px;
+	width: 15000px;
 	background-color: none;
 	border-top: 1px;
 	border-style: solid;
@@ -111,7 +111,7 @@ p {
 }
 
 #grid2 {
-	width: 10000px;
+	width: 15000px;
 	background-color: none;
 	border-top: 1px;
 	border-style: dotted;
@@ -123,7 +123,7 @@ p {
 }
 
 #grid3 {
-	width: 10000px;
+	width: 15000px;
 	background-color: none;
 	border-top: 1px;
 	border-style: solid;
@@ -136,9 +136,9 @@ p {
 
 .lettera {
 	width: 300px;
-	top: 200px;
-	left: 00px;
 	position: absolute;
+	margin-top: 195px;
+	margin-left: -450px;
 }
 
 #a1 {
@@ -226,7 +226,7 @@ p {
 	width: 300px;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 650px;
+	margin-left: 600px;
 }
 
 #b1 {
@@ -250,10 +250,10 @@ p {
 }
 
 #b2border {
-	width: 200px;
-	height: 160px;
+	width: 210px;
+	height: 180px;
 	position: absolute;
-	top: 145px;
+	top: 135px;
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 15px;
@@ -263,10 +263,10 @@ p {
 }
 
 #b2 {
-	width: 200px;
-	height: 160px;
+	width: 210px;
+	height: 180px;
 	position: absolute;
-	top: 145px;
+	top: 135px;
 	background: black;
 	border-radius: 50%;
 	border-style: solid;
@@ -276,10 +276,10 @@ p {
 }
 
 #b2neg {
-	width: 200px;
-	height: 160px;
+	width: 210px;
+	height: 180px;
 	position: absolute;
-	top: 145px;
+	top: 135px;
 	background: tan;
 	border-radius: 50%;
 	border-style: solid;
@@ -290,7 +290,7 @@ p {
 
 #b3 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	position: absolute;
 	margin-left: 20px;
 	background-color: black;
@@ -316,7 +316,7 @@ p {
 }
 
 #c1 {
-	width: 350px;
+	width: 330px;
 	height: 320px;
 	background: black;
 	border-radius: 50%;
@@ -325,7 +325,7 @@ p {
 }
 
 #c1neg {
-	width: 350px;
+	width: 330px;
 	height: 320px;
 	background: tan;
 	border-radius: 50%;
@@ -335,40 +335,40 @@ p {
 }
 
 #c2neg {
-	width: 80px;
+	width: 100px;
 	height: 320px;
 	background: tan;
 	position: absolute;
-	margin-left: 270px;
+	margin-left: 250px;
 }
 
 .letterd {
 	width: 300px;
 	background-color: blue;
 	position: absolute;
-	margin-top: 455px;
+	margin-top: 450px;
 	margin-left: 1550px;
 }
 
 #d1 {
 	width: 350px;
-	height: 320px;
+	height: 315px;
 	background: black;
 	border-radius: 50%;
 	position: absolute;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-left: -100px;
-
+	opacity: .7;
 }
 
 #d1neg {
 	width: 350px;
-	height: 320px;
+	height: 315px;
 	background: tan;
 	border-radius: 50%;
 	transform: scale(.8);
 	position: absolute;
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-left: -100px;
 
 }
@@ -389,8 +389,7 @@ p {
 	border-width: 15px;
 	border-color: tan;
 	position: absolute;
-	margin-top: 0px;
-	opacity: ;
+	opacity: 1;
 }
 
 .lettere {
@@ -433,6 +432,16 @@ p {
 	border-color: tan;
 	position: absolute;
 	opacity: .8;
+}
+
+#e3border {
+	width: 30px;
+	height: 310px;
+	background-color: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
 }
 
 #e4 {
@@ -503,7 +512,7 @@ p {
 	background: black;
 	position: absolute;
 	margin-top: 180px;
-	margin-left: 250px;
+	margin-left: 230px;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -516,7 +525,7 @@ p {
 	background: tan;
 	position: absolute;
 	margin-top: 180px;
-	margin-left: 250px;
+	margin-left: 230px;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -524,7 +533,7 @@ p {
 }
 
 #g2 {
-	width: 350px;
+	width: 330px;
 	height: 320px;
 	background: black;
 	border-radius: 50%;
@@ -535,21 +544,22 @@ p {
 }
 
 #g2neg {
-	width: 350px;
+	width: 330px;
 	height: 320px;
 	background: tan;
 	border-radius: 50%;
 	transform: scale(.8);
 	position: absolute;
 	margin-top: 10px;
+	margin-left: -10px;
 }
 
 #g2neg2 {
-	width: 80px;
+	width: 100px;
 	height: 320px;
 	background: tan;
 	position: absolute;
-	margin-left: 270px;
+	margin-left: 230px;
 }
 
 #g3 {
@@ -558,7 +568,7 @@ p {
 	background-color: black;
 	position: absolute;
 	margin-top: 150px;
-	margin-left: 200px;
+	margin-left: 180px;
 	opacity: .3;
 }
 
@@ -583,16 +593,28 @@ p {
 }
 
 #h2 {
-	width: 250px;
+	width: 260px;
 	height: 30px;
 	background: black;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
 	position: absolute;
-	margin-top: 140px;
+	margin-top: 120px;
 	margin-left: -10px;
 	opacity: .6;
+}
+
+#h2border {
+	width: 260px;
+	height: 30px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -10px;
 }
 
 #h3 {
@@ -610,7 +632,7 @@ p {
 	width: 300px;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 3800px;
+	margin-left: 3750px;
 }
 
 #i1 {
@@ -621,13 +643,13 @@ p {
 	border-width: 15px;
 	border-color: tan;
 	position: absolute;
-	margin-top: 270px;
+	margin-top: 280px;
 	opacity: .3;
 }
 
 #i2 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
 	border-style: solid;
 	border-width: 15px;
@@ -635,6 +657,17 @@ p {
 	position: absolute;
 	margin-left: 40px;
 	opacity: .6;
+}
+
+#i2border {
+	width: 30px;
+	height: 310px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 40px;
 }
 
 #i3 {
@@ -653,61 +686,109 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4200px;
+	margin-left: 4120px;
 }
 
 #j1 {
-	width: 30px;
-	height: 300px;
+	height:45px;
+    width: 100px;
+    border-radius: 0px 0px 90px 90px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-top: 270px;
+	margin-left: -15px;
+	opacity: .7;
+	transform: scale(1.2);
+}
+
+#j1neg {
+	height: 50px;
+    width: 94px;
+    border-radius: 0px 0px 90px 90px;
+	background: tan;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: -15px;
+
+	transform: scale(.7);
 }
 
 #j2 {
 	width: 30px;
-	height: 300px;
+	height: 235px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	margin-left: 50px;
+	opacity: 1;
 }
+
 
 .letterk {
 	width: 300px;
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4500px;
+	margin-left: 4450px;
 }
 
 #k1 {
 	width: 30px;
-	height: 180px;
+	height: 250px;
 	background: black;
 	position: absolute;
-	margin-left: 10px;
-	transform: rotate (-25deg);
+	margin-left: 80px;
+	margin-top: 100px;
 	opacity: .3;
+	transform: rotate(-40deg);
 }
 
 #k2 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
 	position: absolute;
-	margin-left: 40px;
-	opacity: .6;
+	opacity: .7;
+}
+
+#k2border {
+	width: 30px;
+	height: 310px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
 }
 
 #k3 {
 	width: 30px;
-	height: 300px;
+	height: 215px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 83px;
+	margin-top: -10px;
+	opacity: 1;
+	transform: rotate(40deg);
+}
+
+#k3border {
+	width: 30px;
+	height: 220px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 72px;
+	margin-top: -30px;
+	opacity: 1;
+	transform: rotate(40deg);
 }
 
 .letterl {
@@ -715,23 +796,29 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4800px;
+	margin-left: 4850px;
 }
 
 #l1 {
 	width: 30px;
-	height: 300px;
+	height: 150px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-top: 230px;
+	margin-left: 120px;
+	opacity: .6;
+	transform: rotate(90deg);
 }
 
 #l2 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	opacity: 1;
 }
 
 .letterm {
@@ -739,39 +826,92 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 5000px;
+	margin-left: 5250px;
 }
 
 #m1 {
 	width: 30px;
-	height: 300px;
+	height: 210px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 205px;
+	margin-top: -5px;
+	opacity: .3;
+	transform: rotate(40deg);
+}
+
+#m1border {
+	width: 30px;
+	height: 210px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 190px;
+	margin-top: -20px;
+	opacity: 1;
+	transform: rotate(40deg);
 }
 
 #m2 {
 	width: 30px;
-	height: 300px;
-	background: black;
+	height: 310px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	margin-left: 270px;
+	opacity: .3;
+}
+
+#m2border {
+	width: 30px;
+	height: 310px;
+	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 270px;
+	opacity: 1;
 }
 
 #m3 {
 	width: 30px;
-	height: 300px;
+	height: 210px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 90px;
+	margin-top: -15px;
+	opacity: .8;
+	transform: rotate(-40deg);
+}
+
+#m3border {
+	width: 30px;
+	height: 210px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: -20px;
+	transform: rotate(-40deg);
 }
 
 #m4 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	margin-left: 0px;
+	opacity: 1;
 }
 
 .lettern {
@@ -779,31 +919,54 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4500px;
+	margin-left: 5800px;
 }
 
 #n1 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	margin-left: 220px;
+	opacity: .3;
 }
 
 #n2 {
 	width: 30px;
-	height: 300px;
+	height: 370px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 130px;
+	margin-top: -10px;
+	transform: rotate(-35deg);
+	opacity: .7;
+}
+
+#n2border {
+	width: 30px;
+	height: 360px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 130px;
+	margin-top: -5px;
+	transform: rotate(-35deg);
 }
 
 #n3 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	opacity: 1;
 }
 
 .lettero {
@@ -811,7 +974,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4500px;
+	margin-left: 6400px;
 }
 
 #o1 {
@@ -819,17 +982,32 @@ p {
     width:90px;
     border-radius: 90px 90px 0 0;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	margin-top: 60px;
+	transform: scale(3.5);
+	opacity: .6;
 }
 
 #o2 {
-	width: 30px;
-	height: 300px;
+	height:45px;
+    width:90px;
+    border-radius: 0px 0px 90px 90px;
 	background: black;
+	transform: scale(3.5);
 	position: absolute;
-	opacity: ;
+	margin-top: 230px;
+	opacity: 1;
+}
+
+#oneg {
+	height: 250px;
+    width: 240px;
+    border-radius: 50%;
+	background: tan;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -73px;
+	opacity: 1;
 }
 
 .letterp {
@@ -837,25 +1015,41 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 4800px;
+	margin-left: 6800px;
 }
 
 #p1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	height: 80px;
+    width: 70px;
+    border-radius: 0px 90px 90px 0;
 	background: black;
-	transform: scale(2);
+	transform: scale(2.1);
 	position: absolute;
-	opacity: ;
+	margin-left: 90px;
+	margin-top: 55px;
+	opacity: .7;
+}
+
+#p1neg {
+	height: 80px;
+    width: 140px;
+    border-radius: 0px 90px 90px 0;
+	background: tan;
+	transform: scale(1.35);
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 55px;
 }
 
 #p2 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	opacity: 1;
 }
 
 .letterq {
@@ -863,7 +1057,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 5100px;
+	margin-left: 7300px;
 }
 
 #q1 {
@@ -871,25 +1065,57 @@ p {
     width:90px;
     border-radius: 90px 90px 0 0;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	margin-top: 60px;
+	transform: scale(3.5);
+	opacity: .3;
 }
 
 #q2 {
-	width: 30px;
-	height: 300px;
+	height:45px;
+    width:90px;
+    border-radius: 0px 0px 90px 90px;
 	background: black;
+	transform: scale(3.5);
 	position: absolute;
-	opacity: ;
+	margin-top: 230px;
+	opacity: .7;
+}
+
+#qneg {
+	height: 250px;
+    width: 240px;
+    border-radius: 50%;
+	background: tan;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: -73px;
+	opacity: 1;
 }
 
 #q3 {
 	width: 30px;
-	height: 300px;
+	height: 120px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 130px;
+	margin-top: 210px;
+	transform: rotate(-70deg);
+	opacity: 1;
+}
+
+#q3border {
+	width: 30px;
+	height: 120px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 200px;
+	transform: rotate(-70deg);
+	opacity: 1;
 }
 
 .letterr {
@@ -897,33 +1123,63 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 5400px;
+	margin-left: 7750px;
 }
 
 #r1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	width: 30px;
+	height: 190px;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	margin-top: 150px;
+	margin-left: 130px;
+	transform: rotate(-35deg);
+	opacity: .3;
 }
 
 #r2 {
-	width: 30px;
-	height: 300px;
+	height: 80px;
+    width: 70px;
+    border-radius: 0px 90px 90px 0;
 	background: black;
+	transform: scale(2.1);
 	position: absolute;
-	opacity: ;
+	margin-left: 90px;
+	margin-top: 55px;
+	opacity: .7;
+}
+
+#r2border {
+	height: 80px;
+    width: 70px;
+    border-radius: 0px 90px 90px 0;
+	background: tan;
+	transform: scale(2.5);
+	position: absolute;
+	margin-left: 90px;
+	margin-top: 55px;
+}
+
+#r2neg {
+	height: 80px;
+    width: 140px;
+    border-radius: 0px 90px 90px 0;
+	background: tan;
+	transform: scale(1.35);
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 55px;
 }
 
 #r3 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	opacity: 1;
 }
 
 .letters {
@@ -931,25 +1187,72 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 5700px;
+	margin-left: 8300px;
 }
 
 #s1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	height: 80px;
+    width: 80px;
+    border-radius: 0px 90px 90px 0;
 	background: black;
-	transform: scale(2);
+	transform: scale(2.3);
 	position: absolute;
-	opacity: ;
+	margin-left: 0px;
+	margin-top: 200px;
+	opacity: .7;
+}
+
+#s1neg {
+	height: 80px;
+    width: 160px;
+    border-radius: 0px 90px 90px 0;
+	background: tan;
+	transform: scale(1.55);
+	position: absolute;
+	margin-left: -105px;
+	margin-top: 200px;
 }
 
 #s2 {
-	width: 30px;
-	height: 300px;
+	height: 85px;
+    width: 70px;
+    border-radius: 90px 0px 0px 90px;
 	background: black;
+	transform: scale(2.1);
 	position: absolute;
-	opacity: ;
+	margin-top: 48px;
+	margin-left: -60px;
+	opacity: 1;
+}
+
+#s2neg {
+	height: 85px;
+    width: 140px;
+    border-radius: 90px 0px 0px 90px;
+	background: tan;
+	transform: scale(1.35);
+	position: absolute;
+	margin-top: 48px;
+	margin-left: -35px;
+	opacity: 1;
+}
+
+#sborder1 {
+	height: 50px;
+	width: 50px;
+	background-color: tan;
+	position: absolute;
+	margin-left: -60px;
+    margin-top: 160px;
+}
+
+#sborder2 {
+	height: 50px;
+	width: 15px;
+	background-color: tan;
+	position: absolute;
+	margin-left: 40px;
+    margin-top: 140px;
 }
 
 .lettert {
@@ -957,25 +1260,30 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 6000px;
+	margin-left: 8750px;
 }
 
 #t1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	height: 30px;
+    width: 280px;
 	background: black;
-	transform: scale(2);
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	margin-left: -120px;
+	opacity: .7;
 }
 
 #t2 {
 	width: 30px;
-	height: 300px;
+	height: 310px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	opacity: 1;
 }
 
 .letteru {
@@ -983,7 +1291,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 6300px;
+	margin-left: 9300px;
 }
 
 #u1 {
@@ -1009,7 +1317,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 6600px;
+	margin-left: 9900px;
 }
 
 #v1 {
@@ -1035,7 +1343,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 6900px;
+	margin-left: 10200px;
 }
 
 #w1 {
@@ -1079,7 +1387,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 7200px;
+	margin-left: 10600px;
 }
 
 #x1 {
@@ -1104,7 +1412,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 7500px;
+	margin-left: 11100px;
 }
 
 #y1 {
@@ -1137,7 +1445,7 @@ p {
 	background-color: blue;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 7800px;
+	margin-left: 11400px;
 }
 
 #z1 {

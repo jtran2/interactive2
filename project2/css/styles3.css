@@ -580,6 +580,62 @@ p {
 	opacity: 1;
 }
 
+#arrowe1 {
+	transform: rotate(0deg);
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -20px;
+	opacity: 0;
+}
+
+#arrowe2 {
+	transform: rotate(180deg);
+	position: absolute;
+	margin-top: 280px;
+	margin-left: -20px;
+	opacity: 0;
+}
+
+#arrowe3 {
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -175px;
+	opacity: 0;
+}
+
+#arrowe4 {
+	transform: rotate(180deg);
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -20px;
+	opacity: 0;
+}
+
+.lettere:hover #arrowe1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
+.lettere:hover #arrowe2{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: .8s;
+}
+
+.lettere:hover #arrowe3{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 1.5s;
+}
+
+.lettere:hover #arrowe4{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 2.2s;
+}
+
 .letterf {
 	width: 300px;
 	position: absolute;
@@ -620,6 +676,48 @@ p {
 	border-color: tan;
 	position: absolute;
 	opacity: 1;
+}
+
+#arrowf1 {
+	transform: rotate(0deg);
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -20px;
+	opacity: 0;
+}
+
+#arrowf2 {
+	transform: rotate(180deg);
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -20px;
+	opacity: 0;
+}
+
+#arrowf3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -175px;
+	opacity: 0;
+}
+
+.letterf:hover #arrowf1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
+.letterf:hover #arrowf2{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: .8s;
+}
+
+.letterf:hover #arrowf3{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 1.5s;
 }
 
 .letterg {

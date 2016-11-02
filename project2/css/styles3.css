@@ -9,23 +9,22 @@ body {
 }
 
 a:link {
-	color: gray;
+	color: #333333;
 	text-decoration: none;
 }
 
 a:visited {
-	color: gray;
+	color: #333333;
 }
 
 a:hover {
 	color: black;
-	text-decoration: line-through;
+	text-decoration: none;
 }
 
 #main {
 	margin: auto;
 	width: 900px;
-	height: 2000px;
 }
 
 #header1 {
@@ -33,7 +32,7 @@ a:hover {
 	text-align: center;
 	font-size: 30px;
 	position: absolute;
-	top: 80px;
+	top: 50px;
 	opacity: 1;
 }
 
@@ -48,7 +47,7 @@ a:hover {
 	text-align: center;
 	font-size: 30px;
 	position: absolute;
-	top: 80px;
+	top: 50px;
 	opacity: 1;
 }
 
@@ -64,77 +63,80 @@ p {
 	line-height: 22px;
 }
 
-#simple_sketch {
-	background-color: white;
-	position: absolute;
-	top: 820px;
+.sketchpad {
+	position: fixed;
+	top: 200px;
 	left: 20px;
+
+}
+
+.tools {
+	margin-bottom: 5px;
+}
+
+.tools a {
+    border: 3px solid black;
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#tools_sketch {
+	background-color: white;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
 }
 
 #content {
-	width: 500px;
-	margin: auto;
+	width: 11500px;
+	height: 10px;
+	background-color: blue;
+	position: absolute;
+	top: -225px;
+	left: 400px;
 	text-align: center;
 	font-size: 15px;
-
 }
 
-#step201 {
-	width: 500px;
-	text-align: center;
-	margin: auto;
-	margin-top: 250px;
-	position: absolute;
-	background-color: tan;
-}
-
-#step202 {
-	width: 500px;
-	text-align: center;
-	margin: auto;
-	position: absolute;
-	margin-top: 250px;
-}
-
-#step201:hover {
-	opacity: 0;
-	animation-name: fadeOut;
-	animation-delay: 0s;
-	animation-direction: alternate;
-}
 
 #grid1 {
-	width: 15000px;
+	width: 12700px;
 	background-color: none;
 	border-top: 1px;
 	border-style: solid;
 	border-color: black;
 	position: absolute;
-	top: 470px;
+	top: 240px;
 	left: -3px;
 	opacity: .5;
 }
 
 #grid2 {
-	width: 15000px;
+	width: 12700px;
 	background-color: none;
 	border-top: 1px;
 	border-style: dotted;
 	border-color: black;
 	position: absolute;
-	top: 620px;
+	top: 390px;
 	left: -3px;
 	opacity: .7;
 }
 
 #grid3 {
-	width: 15000px;
+	width: 12700px;
 	background-color: none;
 	border-top: 1px;
 	border-style: solid;
 	border-color: black;
 	position: absolute;
-	top: 775px;
+	top: 545px;
 	left: -3px;
 	opacity: .5;
 }
@@ -168,8 +170,6 @@ p {
 	left: 730px;
 	transform: rotate(-25deg);
 	opacity: .7;
-	transition-property: opacity;
-    transition-delay: .5s;
 }
 
 #a2border {
@@ -200,20 +200,6 @@ p {
     transition-delay: 1s;
 }
 
-.lettera:hover #a1{
-	opacity: 0;
-}
-
-.lettera:hover #a2{
-	opacity: 0;
-}
-
-.lettera:hover #a3{
-	opacity: 0;
-}
-
-
-
 #a3border {
 	width: 30px;
 	height: 350px;
@@ -226,6 +212,49 @@ p {
 	top: 240px;
 	transform: rotate(25deg);
 }
+
+#arrowa1 {
+	transform: rotate(0deg);
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 520px;
+	opacity: 0;
+}
+
+#arrowa2 {
+	transform: rotate(65deg);
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 660px;
+	opacity: 0;
+}
+
+#arrowa3 {
+	transform: rotate(-65deg);
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 390px;
+	opacity: 0;
+}
+
+.lettera:hover #arrowa1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
+.lettera:hover #arrowa2{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: .8s;
+}
+
+.lettera:hover #arrowa3{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 1.5s;
+} 
+
 
 .letterb {
 	width: 300px;
@@ -240,7 +269,7 @@ p {
 	position: absolute;
 	top: 10px;
 	background: black;
-	border-radius: 50%;
+	border-radius: 0px 90px 90px 0px;
 	opacity: .3;
 }
 
@@ -250,16 +279,16 @@ p {
 	position: absolute;
 	top: 10px;
 	background: tan;
-	border-radius: 50%;
+	border-radius: 0px 90px 90px 0px;
 	transform: scale(0.7);
 }
 
 #b2border {
-	width: 210px;
+	width: 200px;
 	height: 180px;
 	position: absolute;
 	top: 135px;
-	border-radius: 50%;
+	border-radius: 0px 90px 90px 0px;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -268,12 +297,12 @@ p {
 }
 
 #b2 {
-	width: 210px;
+	width: 200px;
 	height: 180px;
 	position: absolute;
 	top: 135px;
 	background: black;
-	border-radius: 50%;
+	border-radius: 0px 90px 90px 0px;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -281,12 +310,12 @@ p {
 }
 
 #b2neg {
-	width: 210px;
+	width: 200px;
 	height: 180px;
 	position: absolute;
 	top: 135px;
 	background: tan;
-	border-radius: 50%;
+	border-radius: 0px 90px 90px 0px;
 	border-style: solid;
 	border-width: 15px;
 	border-color: tan;
@@ -305,12 +334,59 @@ p {
 }
 
 #b3border {
-	width: 80px;
-	height: 300px;
+	width: 50px;
+	height: 310px;
 	position: absolute;
 	margin-left: 0px;
 	background-color: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 }
+
+
+#arrowb1 {
+	transform: rotate(-90deg);
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 40px;
+	opacity: 0;
+}
+
+#arrowb2 {
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 50px;
+	opacity: 0;
+}
+
+#arrowb3 {
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -160px;
+	opacity: 0;
+}
+
+.letterb:hover #arrowb1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
+.letterb:hover #arrowb2{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: .8s;
+}
+
+.letterb:hover #arrowb3{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 1.5s;
+} 
+
 
 .letterc {
 	width: 300px;
@@ -346,6 +422,21 @@ p {
 	position: absolute;
 	margin-left: 250px;
 }
+
+#arrowc1 {
+	transform: rotate(85deg);
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -220px;
+	opacity: 0;
+}
+
+.letterc:hover #arrowc1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
 
 .letterd {
 	width: 300px;
@@ -395,6 +486,34 @@ p {
 	border-color: tan;
 	position: absolute;
 	opacity: 1;
+}
+
+#arrowd1 {
+	transform: rotate(95deg);
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 90px;
+	opacity: 0;
+}
+
+#arrowd2 {
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -180px;
+	opacity: 0;
+}
+
+.letterd:hover #arrowd1{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: 0s;
+}
+
+.letterd:hover #arrowd2{
+	opacity: 1;
+	transition-property: opacity;
+    transition-delay: .8s;
 }
 
 .lettere {
@@ -1062,7 +1181,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 7300px;
+	margin-left: 7280px;
 }
 
 #q1 {
@@ -1128,7 +1247,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 7750px;
+	margin-left: 7700px;
 }
 
 #r1 {
@@ -1192,7 +1311,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 8300px;
+	margin-left: 8200px;
 }
 
 #s1 {
@@ -1265,7 +1384,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 8750px;
+	margin-left: 8600px;
 }
 
 #t1 {
@@ -1296,7 +1415,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 9200px;
+	margin-left: 9000px;
 }
 
 #u1 {
@@ -1339,7 +1458,7 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 9750px;
+	margin-left: 9530px;
 }
 
 #v1 {
@@ -1381,43 +1500,77 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 10200px;
+	margin-left: 10050px;
 }
 
 #w1 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	width: 30px;
+	height: 350px;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	transform: rotate(15deg);
+	margin-top: -10px;
+	margin-left: 300px;
+	opacity: .2;
 }
 
 #w2 {
 	width: 30px;
-	height: 300px;
+	height: 200px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	transform: rotate(-30deg);
+	margin-top: 140px;
+	margin-left: 200px;
+	opacity: .5;
+}
+
+#w2border {
+	width: 30px;
+	height: 200px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	transform: rotate(-30deg);
+	margin-top: 140px;
+	margin-left: 195px;
 }
 
 #w3 {
-	height:45px;
-    width:90px;
-    border-radius: 90px 90px 0 0;
+	width: 30px;
+	height: 350px;
 	background: black;
-	transform: scale(2);
 	position: absolute;
-	opacity: ;
+	transform: rotate(-15deg);
+	margin-top: -10px;
+	opacity: .8;
 }
 
 #w4 {
 	width: 30px;
-	height: 300px;
+	height: 200px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	transform: rotate(30deg);
+	margin-top: 140px;
+	margin-left: 100px;
+	opacity: 1;
+}
+
+#w4border {
+	width: 30px;
+	height: 210px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	transform: rotate(30deg);
+	margin-top: 120px;
+	margin-left: 85px;
+	opacity: 1;
 }
 
 .letterx {
@@ -1425,24 +1578,40 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 10600px;
+	margin-left: 10750px;
 }
 
 #x1 {
-	height:45px;
-    width:90px;
+	width: 30px;
+	height: 380px;
 	background: black;
 	position: absolute;
-	transform: rotate (25deg);
-	opacity: ;
+	transform: rotate(35deg);
+	margin-top: -20px;
+	opacity: .7;
 }
 
 #x2 {
 	width: 30px;
-	height: 300px;
+	height: 380px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	transform: rotate(-35deg);
+	margin-top: -20px;
+	opacity: 1;
+}
+
+#x2border {
+	width: 30px;
+	height: 380px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	transform: rotate(-35deg);
+	margin-top: -15px;
+	opacity: 1;
 }
 
 .lettery {
@@ -1450,32 +1619,53 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 11100px;
+	margin-left: 11150px;
 }
 
 #y1 {
-	height:45px;
-    width:90px;
+	width: 30px;
+	height: 190px;
 	background: black;
 	position: absolute;
-	transform: rotate (25deg);
-	opacity: ;
+	transform: rotate(40deg);
+	margin-top: -10px;
+	margin-left: 150px;
+	opacity: .3;
 }
 
 #y2 {
 	width: 30px;
-	height: 300px;
+	height: 180px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	margin-left: 100px;
+	margin-top: 140px;
+	opacity: .7;
 }
 
 #y3 {
 	width: 30px;
-	height: 300px;
+	height: 190px;
 	background: black;
 	position: absolute;
-	opacity: ;
+	transform: rotate(-40deg);
+	margin-top: -10px;
+	margin-left: 25px;
+	opacity: 1;
+}
+
+#y3border {
+	width: 30px;
+	height: 190px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	transform: rotate(-40deg);
+	margin-top: -25px;
+	margin-left: 13px;
+	opacity: 1;
 }
 
 .letterz {
@@ -1483,32 +1673,52 @@ p {
 	background-color: none;
 	position: absolute;
 	margin-top: 450px;
-	margin-left: 11400px;
+	margin-left: 11600px;
 }
 
 #z1 {
-	height:45px;
-    width:90px;
+	width: 30px;
+	height: 370px;
 	background: black;
 	position: absolute;
-	transform: rotate (25deg);
-	opacity: ;
+	transform: rotate(40deg);
+	margin-top: -20px;
+	margin-left: 130px;
+	opacity: .3;
 }
 
 #z2 {
-	width: 30px;
-	height: 300px;
+	width: 250px;
+	height: 30px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	margin-top: 280px;
+	opacity: .7;
+}
+
+#z2border {
+	width: 250px;
+	height: 30px;
+	background: tan;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
+	position: absolute;
+	margin-top: 280px;
 }
 
 #z3 {
-	width: 30px;
-	height: 300px;
+	width: 250px;
+	height: 30px;
 	background: black;
+	border-style: solid;
+	border-width: 15px;
+	border-color: tan;
 	position: absolute;
-	opacity: ;
+	opacity: 1;
 }
 
 /* .num1 {

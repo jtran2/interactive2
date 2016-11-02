@@ -9,17 +9,17 @@ body {
 }
 
 a:link {
-	color: gray;
+	color: #333333;
 	text-decoration: none;
 }
 
 a:visited {
-	color: gray;
+	color: #333333;
 }
 
 a:hover {
 	color: black;
-	text-decoration: line-through;
+	text-decoration: none;
 }
 
 #main {
@@ -32,7 +32,7 @@ a:hover {
 	text-align: center;
 	font-size: 30px;
 	position: absolute;
-	top: 80px;
+	top: 50px;
 	opacity: 1;
 }
 
@@ -47,7 +47,7 @@ a:hover {
 	text-align: center;
 	font-size: 30px;
 	position: absolute;
-	top: 80px;
+	top: 50px;
 	opacity: 1;
 }
 
@@ -75,7 +75,7 @@ p {
 	width: 500px;
 	text-align: center;
 	margin: auto;
-	margin-top: 250px;
+	margin-top: 200px;
 	position: absolute;
 	background-color: tan;
 }
@@ -85,10 +85,35 @@ p {
 	text-align: center;
 	margin: auto;
 	position: absolute;
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 #step101:hover {
+	opacity: 0;
+	animation-name: fadeOut;
+	animation-delay: 0s;
+	animation-direction: alternate;
+}
+
+
+#step201 {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	margin-top: 350px;
+	position: absolute;
+	background-color: tan;
+}
+
+#step202 {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	margin-top: 350px;
+}
+
+#step201:hover {
 	opacity: 0;
 	animation-name: fadeOut;
 	animation-delay: 0s;
@@ -101,6 +126,5 @@ p {
 	width: 500px;
 	position: absolute;
 	margin: auto;
-	margin-top: 450px;
-	
+	margin-top: 570px;
 }

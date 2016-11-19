@@ -1,0 +1,133 @@
+body {
+	background: white;
+}
+
+.main {
+	width: 900px;
+	height: 500px;
+}
+
+#allballs {
+}
+
+#string1 {
+	width: 6px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 450px;
+}
+
+#ball1 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 400px;
+}
+
+#string2 {
+	width: 6px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 550px;
+}
+
+#ball2 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 500px;
+}
+
+#string3 {
+	width: 6px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 650px;
+}
+
+#ball3 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 600px;
+}
+
+#string4 {
+	width: 6px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 750px;
+}
+
+#ball4 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 700px;
+}
+
+#string5 {
+	width: 6px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 850px;
+}
+
+#ball5 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 800px;
+}
+
+
+#allballs:hover #swing1 {
+    -webkit-animation:swing 2s infinite ease-in-out;
+    -webkit-transform-origin: top;
+}
+
+#allballs:hover #swing2 {
+    -webkit-animation:swing2 2s infinite ease-in-out;
+    -webkit-transform-origin: top;
+    -webkit-animation-delay: 2s;
+}
+
+
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(0deg)}
+    50%{-webkit-transform:rotate(20deg)}
+    100%{-webkit-transform:rotate(0deg)}
+} 
+
+@-webkit-keyframes swing2{
+    0%{-webkit-transform:rotate(0deg)}
+    50%{-webkit-transform:rotate(-20deg)}
+    100%{-webkit-transform:rotate(0deg)}
+} 
+
+

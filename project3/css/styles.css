@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+	background-color: red;
+}
+
+#clock {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: white;
+	border: solid;
+	border-width: 40px;
+	border-color: yellow;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#tree {
+	position: absolute;
+	top: -120;
+	left: -120;
+	transform: rotate(-10deg);
+}

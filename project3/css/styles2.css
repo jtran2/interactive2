@@ -1,0 +1,27 @@
+body {
+	font-family: sans-serif;
+	background-color: red;
+}
+
+#time {
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	opacity: .5;
+	margin-left: 50px;
+	margin-top: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#content {
+	width: 800px;
+	height: 5000px;
+	background-color: white;
+	opacity: .5;
+	margin: auto;
+	margin-top: 20px;
+
+}
+

@@ -1,16 +1,18 @@
 body {
 	font-family: 'Noto Sans';
 	font-weight: 400;
-	background-color: red;
+	background-color: red; 
+	font-size: .9em;
 }
 
 h2 {
 	font-family: 'Noto Sans';
+	color: white;
 }
 
 p {
 	line-height: 26px;
-	font-size: .9em;
+	color: white;
 }
 
 #time {
@@ -18,7 +20,7 @@ p {
 	height: 100px;
 	background-color: white;
 	margin-left: 50px;
-	margin-top: 20px;
+	margin-top: 50px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,55 +29,191 @@ p {
 
 #content {
 	width: 800px;
-	height: 6000px;
-	background-color: white;
-	margin: auto;
-	margin-top: 20px;
-
+	height: 7000px;
+	margin-top: 50px;
+	margin-left: 300px;
+	position: absolute;
+	top: 0;
 }
 
 #description {
 	width: 400px;
-	height: 300px;
-	padding: 50px;
+	margin-bottom: 40px;
 }
 
-#daybefore {
+.daybefore {
 	width: 800px;
-	height: 1000px;
-	background-color: yellow;
-	margin: auto;
+	height: 1700px;
+	background-color: none;
 	margin-top: 20px;
 }
 
-#midnight {
+#shop08 {
+	position: absolute; 
+	top: -70px; 
+	left: 460px; 
+	transform: scale(.7);
+}
+
+#decor01 {
+	position: absolute; 
+	top: 200px; 
+	left: -45px; 
+	transform: scale(.85);
+}
+
+#flower02 {
+	position: absolute;
+	top: 370px;
+	left: 400;
+	transform: scale(.6);
+}
+
+#flower03 {
+	position: absolute;
+	top: 520px;
+	left: 150;
+	transform: scale(.8);
+}
+
+#flower05 {
+	position: absolute;
+    top: 460px;
+    left: -240px;
+    transform: scale(.4);
+}
+
+#flower11 {
+	position: absolute;
+	top: 610;
+	left: -210px;
+	transform: scale(.3);
+}
+
+#flower10 {
+	position: absolute;
+	top: 595px;
+	left: 361px;
+	transform: scale(.47);
+}
+
+#fruit07 {
+	position: absolute;
+    top: 775px;
+    left: -150px;
+    transform: scale(.65);
+}
+
+#shop01 {
+	position: absolute;
+	top: 850px;
+	left: 445px;
+	transform: scale(.75);
+}
+
+#flower06 {
+	position: absolute;
+    top: 976px;
+    left: 50px;
+    transform: scale(.53);
+}
+
+
+
+.midnight {
 	width: 800px;
-	height: 1000px;
-	background-color: yellow;
-	margin: auto;
+	height: 1900px;
+	background-color: none;
 	margin-top: 20px;
 }
 
-#morning {
+#altar03 {
+	position: absolute; 
+	margin-top: -305px; 
+	margin-left: 460px; 
+	transform: scale(.7);
+}
+
+#fruit08 {
+	position: absolute; 
+	margin-top: -35px; 
+	margin-left: -45px; 
+	transform: scale(.85);
+}
+
+#pray07 {
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 400;
+	transform: scale(.6);
+}
+
+#pray03 {
+	position: absolute;
+	margin-top: 285px;
+	margin-left: 150;
+	transform: scale(.8);
+}
+
+#altar01 {
+	position: absolute;
+    margin-top: 220px;
+    margin-left: -135px;
+    transform: scale(.58);
+}
+
+#pray08 {
+	position: absolute;
+    margin-top: 565px;
+    margin-left: -210px;
+    transform: scale(.3);
+}
+
+#fruit03 {
+	position: absolute;
+	margin-top: 360px;
+	margin-left: 361px;
+	transform: scale(.47);
+}
+
+#burn01 {
+	position: absolute;
+    margin-top: 815px;
+    margin-left: -60px;
+    transform: scale(.9);
+}
+
+#pray08 {
+	position: absolute;
+    margin-top: 565px;
+    margin-left: -210px;
+    transform: scale(.3);
+}
+
+#door01 {
+	position: absolute;
+    margin-top: 635px;
+    margin-left: 500;
+    transform: scale(.9);
+}
+
+.morning {
 	width: 800px;
-	height: 1000px;
+	height: 1600px;
 	background-color: yellow;
-	margin: auto;
 	margin-top: 20px;
 }
 
-#afternoon {
+.afternoon {
 	width: 800px;
-	height: 1000px;
+	height: 1600px;
 	background-color: yellow;
-	margin: auto;
 	margin-top: 20px;
 }
 
-#evening {
+.evening {
 	width: 800px;
 	height: 1000px;
 	background-color: yellow;
-	margin: auto;
 	margin-top: 20px;
 }

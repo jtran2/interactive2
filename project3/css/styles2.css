@@ -43,7 +43,7 @@ p {
 
 .daybefore {
 	width: 800px;
-	height: 1700px;
+	height: 1900px;
 	background-color: none;
 	margin-top: 20px;
 }
@@ -116,6 +116,23 @@ p {
     top: 976px;
     left: 50px;
     transform: scale(.53);
+}
+
+#beforeflower {
+	position: absolute;
+	margin-top: 1100px;
+	margin-left: 100px;
+}
+
+#beforeornament01 {
+	position: absolute;
+	margin-top: 1300px;
+}
+
+#beforeornament02 {
+	position: absolute;
+	margin-top: 1300px;
+	margin-left: -80px;
 }
 
 
@@ -197,18 +214,160 @@ p {
     transform: scale(.9);
 }
 
+
 .morning {
 	width: 800px;
-	height: 1600px;
-	background-color: yellow;
+	height: 1800px;
+	background-color: none;
 	margin-top: 20px;
+}
+
+#temple06 {
+	position: absolute; 
+	margin-top: -280px; 
+	margin-left: 460px; 
+	transform: scale(.7);
+}
+
+#pray05 {
+	position: absolute; 
+	margin-top: -10px; 
+	margin-left: -45px; 
+	transform: scale(.85);
+}
+
+#pray04 {
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 400;
+	transform: scale(.6);
+}
+
+#pray10 {
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 150;
+	transform: scale(.8);
+}
+
+#temple01 {
+	position: absolute;
+    margin-top: 250px;
+    margin-left: -240px;
+    transform: scale(.4);
+}
+
+#monk02 {
+	position: absolute;
+	margin-top: 400;
+	margin-left: -210px;
+	transform: scale(.3);
+}
+
+#temple05 {
+	position: absolute;
+	margin-top: 385px;
+	margin-left: 361px;
+	transform: scale(.47);
+}
+
+#pray06 {
+	position: absolute;
+    margin-top: 565px;
+    margin-left: -150px;
+    transform: scale(.65);
+}
+
+#pray11 {
+	position: absolute;
+	margin-top: 640px;
+	margin-left: 445px;
+	transform: scale(.75);
+}
+
+#temple04 {
+	position: absolute;
+    margin-top: 766px;
+    margin-left: 50px;
+    transform: scale(.53);
 }
 
 .afternoon {
 	width: 800px;
-	height: 1600px;
-	background-color: yellow;
+	height: 1800px;
+	background-color: none;
 	margin-top: 20px;
+}
+
+
+#lion02 {
+	position: absolute; 
+	margin-top: -280px; 
+	margin-left: 460px; 
+	transform: scale(.7);
+}
+
+#dress01 {
+	position: absolute; 
+	margin-top: -10px; 
+	margin-left: -45px; 
+	transform: scale(.85);
+}
+
+#envelope02 {
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 400;
+	transform: scale(.6);
+}
+
+#envelope03 {
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 150;
+	transform: scale(.8);
+}
+
+#fest01 {
+	position: absolute;
+    margin-top: 250px;
+    margin-left: -240px;
+    transform: scale(.4);
+}
+
+#fest02 {
+	position: absolute;
+	margin-top: 400;
+	margin-left: -210px;
+	transform: scale(.3);
+}
+
+#kids01 {
+	position: absolute;
+	margin-top: 385px;
+	margin-left: 361px;
+	transform: scale(.47);
+}
+
+#gamble03 {
+	position: absolute;
+    margin-top: 565px;
+    margin-left: -150px;
+    transform: scale(.65);
+}
+
+#lantern01 {
+	position: absolute;
+	margin-top: 640px;
+	margin-left: 445px;
+	transform: scale(.75);
+}
+
+#lion03 {
+	position: absolute;
+    margin-top: 766px;
+    margin-left: 50px;
+    transform: scale(.53);
 }
 
 .evening {

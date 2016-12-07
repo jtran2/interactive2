@@ -15,21 +15,49 @@ p {
 	color: white;
 }
 
-#time {
+#time1 {
 	width: 100px;
 	height: 100px;
 	background-color: white;
 	margin-left: 50px;
 	margin-top: 50px;
-	position: fixed;
-	top: 0;
-	left: 0;
 	padding: 20px;
+	font-size: 15px;
+}
+
+#time2 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 1800px;
+	padding: 20px;
+	font-size: 15px;
+}
+
+#time3 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 1370px;
+	padding: 20px;
+	font-size: 15px;
+}
+
+#time4 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 1300px;
+	padding: 20px;
+	font-size: 15px;
 }
 
 #content {
 	width: 800px;
-	height: 7000px;
+	height: 6000px;
 	margin-top: 50px;
 	margin-left: 300px;
 	position: absolute;
@@ -139,7 +167,7 @@ p {
 
 .midnight {
 	width: 800px;
-	height: 1900px;
+	height: 1500px;
 	background-color: none;
 	margin-top: 20px;
 }
@@ -217,7 +245,7 @@ p {
 
 .morning {
 	width: 800px;
-	height: 1800px;
+	height: 1400px;
 	background-color: none;
 	margin-top: 20px;
 }
@@ -294,7 +322,7 @@ p {
 
 .afternoon {
 	width: 800px;
-	height: 1800px;
+	height: 1400px;
 	background-color: none;
 	margin-top: 20px;
 }
@@ -370,9 +398,9 @@ p {
     transform: scale(.53);
 }
 
-.evening {
+/*.evening {
 	width: 800px;
 	height: 1000px;
 	background-color: yellow;
 	margin-top: 20px;
-}
+} */

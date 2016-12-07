@@ -1,23 +1,40 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Noto Sans';
 	background-color: red;
+	color: white;
+	text-align: center;
+	line-height: 30px;
 }
 
-#clock {
-	width: 500px;
-	height: 500px;
-	border-radius: 50%;
-	background-color: white;
-	border: solid;
-	border-width: 40px;
-	border-color: yellow;
-	margin: auto;
-	margin-top: 30px;
-}
 
 #tree {
 	position: absolute;
-	top: -120;
+	top: -50;
 	left: -120;
 	transform: rotate(-10deg);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+}
+
+#description {
+	width: 500px;
+	height: 300px;
+	margin-left: 600px;
+	margin-top: 300px;
 }

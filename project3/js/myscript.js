@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 $(function() {
-    $('.ornament').on('mousedown', 'div', function() {
+    $('ornament').on('mousedown', 'div', function() {
         $(this).addClass('draggable').parents().on('mousemove', function(e) {
             $('.draggable').offset({
                 top: e.pageY - $('.draggable').outerHeight() / 2,
